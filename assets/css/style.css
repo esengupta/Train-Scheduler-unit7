@@ -1,0 +1,85 @@
+#body{
+  background-image: url("../images/train.jpeg");
+}
+
+  .jumbotron {
+    
+    background-color:#54799e !important;
+   
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 10px;
+    padding: 0 rem;
+    color: whitesmoke;
+    border-radius: .3rem;
+    margin: 1rem;
+    border:1px solid blue;
+    box-shadow: 5px 5px 5px rgba(38, 62, 105, 0.7);
+    transition: box-shadow 1s; transform: 1s; 
+  }
+   #imgheadL {
+    width: 32%;
+    float: left;
+    margin-left: 0px;
+  }
+  
+  #imgheadR {
+    width: 32%;
+    float: right;
+    margin-right: 00px;
+  }
+  input[type=text] {
+    width: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: white;
+    
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.2s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 20%;
+}
+
+#trainTable {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#trainTable td,
+#trainTable th {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+#trainTable tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#trainTable tr:hover {
+	background-color: #ddd;
+}
+
+#trainTable th {
+	height: 50px;
+	padding-top: 12px;
+
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: rgba(37, 124, 255, 0.986);
+	color: white;
+}
+
+.min {
+	text-align: center;
+}
+
+#trainTable #times {
+	text-align: center;
+} 
